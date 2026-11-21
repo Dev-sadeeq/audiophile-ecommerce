@@ -9,21 +9,21 @@
 }
 
 @utility bg-image-header-mobile {
-    background-image: url('./assets/home/mobile/image-header.jpg');
+    background-image: url('/assets/home/mobile/image-header.jpg');
     background-position: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
 
 @utility bg-image-tablet {
-    background-image: url('./assets/home/tablet/image-header.jpg');
+    background-image: url('/assets/home/tablet/image-header.jpg');
     background-position: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
 
 @utility bg-image-desktop {
-    background-image: url('./assets/home/desktop/image-hero.jpg');
+    background-image: url('/assets/home/desktop/image-hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;

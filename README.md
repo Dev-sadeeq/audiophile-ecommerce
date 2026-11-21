@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add GitHub repository URL here](https://github.com/Dev-sadeeq)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Dev-sadeeq/audiophile-ecommerce)
+- Live Site URL: (https://audiophile-ecommercemine.vercel.app/)
 
 ## My process
 

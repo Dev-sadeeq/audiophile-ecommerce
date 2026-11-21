@@ -52,7 +52,7 @@ export default function Header() {
           </div>
 
           <div>
-            <button onClick={openCartModal}>
+            <button className="cursor-pointer" onClick={openCartModal}>
               <div className="relative">
                 <span
                   className={`absolute bg-orange text-white text-xs font-bold rounded-full h-5 w-5 flex justify-center items-center -top-2 left-4 ${cartCount === 0 ? "hidden" : "flex"}`}
@@ -142,7 +142,7 @@ export default function Header() {
             </Link>
           </div>
           <div>
-            <button onClick={openCartModal}>
+            <button className="cursor-pointer" onClick={openCartModal}>
               <div className="relative">
                 <span
                   className={`absolute bg-orange text-white text-xs font-bold rounded-full h-5 w-5 flex justify-center items-center -top-2 left-4 ${cartCount === 0 ? "hidden" : "flex"}`}
