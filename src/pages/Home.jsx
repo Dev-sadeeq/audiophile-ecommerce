@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import CategoryCard from "../components/common/CategoryCard";
 import { Link } from "react-router-dom";
 import CATEGORIES from "../data/category";
+import { getImageUrl } from "../utils/getImage";
 import BrandSection from "../components/common/BrandSection";
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
           <section className="bg-orange overflow-hidden rounded-xl md:rounded-md px-6 py-14 lg:py-0 lg:px-24 flex flex-col lg:flex-row items-center justify-between gap-10 bg-[url('/assets/home/desktop/pattern-circles.svg')] bg-no-repeat bg-size-[550px] bg-position-[center_-120px] md:bg-size-[850px] md:bg-position-[center_-260px] lg:bg-size-[944px] lg:bg-position-[-150px_-35px]">
             <div className="flex justify-center items-end lg:w-1/2 lg:pt-24">
               <img
-                src="/assets/home/desktop/image-speaker-zx9.png"
+                src={getImageUrl("home/desktop/image-speaker-zx9.png")}
                 alt="ZX9 Speaker"
                 className="w-44 md:w-48 lg:w-95 lg:-mb-3"
               />
