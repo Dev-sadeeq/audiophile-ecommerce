@@ -16,7 +16,7 @@ export default function CategoryCard({ category, image }) {
         className="text-xs uppercase font-bold text-gray-500 hover:text-orange tracking-widest mt-4 flex items-center gap-2 transition-colors"
       >
         <span>SHOP</span>
-        <img src="./assets/shared/desktop/icon-arrow-right.svg" alt="" />
+        <img src="/assets/shared/desktop/icon-arrow-right.svg" alt="" />
       </Link>
     </div>
   );
