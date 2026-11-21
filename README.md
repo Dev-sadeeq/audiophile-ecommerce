@@ -33,15 +33,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/homepage-mobile.png)
-
-![](./screenshots/homepage-desktop.png)
-
-![](./screenshots/product-page.png)
-
-![](./screenshots/cart.png)
-
+![](./screenshots/mobile-home.png)
+![](./screenshots/home.png)
+![](./screenshots/inner.png)
 ![](./screenshots/checkout.png)
+![](./screenshots/mobile-checkout.png)
+![](./screenshots/order-confirmation.png)
 
 ### Links
 
